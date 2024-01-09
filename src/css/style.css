@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    background-color: aqua;
+}
+
+.brochure-container {
+    background-color: beige;
+}
+
+.contact-container {
+    background-color: cadetblue;
+}
+
+.faq-container {
+    background-color: fuchsia;
+}
+
+.footer-container {
+    background-color: forestgreen;
+}
+
+.header-container {
+    background-color: honeydew;
+}
+
+.hero-container {
+    background-color: hotpink;
+}

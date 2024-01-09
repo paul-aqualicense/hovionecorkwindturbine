@@ -1,0 +1,16 @@
+{
+  "name": "hovionecorkwindturbine",
+  "version": "1.0.0",
+  "description": "Landing page for stakeholder engagement on the Hovione Cork wind turbine project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "Paul O'Reilly",
+  "license": "Closed Source",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
