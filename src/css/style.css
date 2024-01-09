@@ -1,32 +1,35 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
-.about-container {
-    background-color: aqua;
-}
-
-.brochure-container {
-    background-color: beige;
-}
-
-.contact-container {
-    background-color: cadetblue;
-}
-
-.faq-container {
-    background-color: fuchsia;
-}
-
-.footer-container {
-    background-color: forestgreen;
+html {
+    scroll-behavior: smooth;
 }
 
 .header-container {
-    background-color: honeydew;
+    background-color: #fff;
 }
 
 .hero-container {
-    background-color: hotpink;
+    background-color: #eee;
+}
+
+.brochure-container {
+    background-color: #ddd;
+}
+
+.about-container {
+    background-color: #ccc;
+}
+
+.faq-container {
+    background-color: #bbb;
+}
+
+.contact-container {
+    background-color: #aaa;
+}
+
+.footer-container {
+    background-color: #999;
 }
