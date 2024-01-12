@@ -76,6 +76,7 @@ a {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .flex-one {
@@ -327,6 +328,16 @@ a {
 @media screen and (max-width: 600px) {
     .margin-right {
         margin-right: 10px;
+    }
+}
+
+.margin-right-nav {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .margin-right-nav {
+        margin-right: 2px;
     }
 }
 
