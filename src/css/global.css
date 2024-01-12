@@ -87,6 +87,18 @@ a {
     flex-direction: column;
 }
 
+@media screen and (max-width: 600px) {
+    .flex-col {
+        flex-direction: column;
+    }
+    .flex-margin {
+        margin-top: 20px;
+    }
+    .about-image {
+        display: none;
+    }
+}
+
 .text {
     font-size: 20px;
 }
