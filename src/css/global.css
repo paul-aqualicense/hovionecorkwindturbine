@@ -41,8 +41,18 @@ a {
     }
 }
 
-.nav-padding {
+.brochure-padding {
     padding: 40px 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .brochure-padding {
+        padding: 20px;
+    }
+}
+
+.nav-padding {
+    padding: 30px 100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -135,7 +145,7 @@ a {
 }
 
 .text-just {
-    text-align: justify;
+    text-align: left;
 }
 
 .font-bold {
@@ -204,6 +214,16 @@ a {
 @media screen and (max-width: 600px) {
     .text-large {
         font-size: 36px;
+    }
+}
+
+.text-med {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .text-med {
+        font-size: 14px;
     }
 }
 
