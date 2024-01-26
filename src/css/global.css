@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: Lato, Arial, sans-serif;
+    font-family: Monserrat, Arial, sans-serif;
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ a {
 
 .bg-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/cover-img.webp');
-    background-position: center;
+    background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
