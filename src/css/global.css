@@ -350,3 +350,15 @@ a {
         margin-top: 3px;
     }
 }
+
+.panel-text-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .panel-text-padding {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
