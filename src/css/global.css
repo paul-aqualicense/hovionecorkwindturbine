@@ -35,40 +35,16 @@ a {
     padding: 60px 100px;
 }
 
-@media screen and (max-width: 600px) {
-    .div-padding {
-        padding: 20px;
-    }
-}
-
 .brochure-padding {
     padding: 40px 100px;
-}
-
-@media screen and (max-width: 600px) {
-    .brochure-padding {
-        padding: 20px;
-    }
 }
 
 .nav-padding {
     padding: 30px 100px;
 }
 
-@media screen and (max-width: 600px) {
-    .nav-padding {
-        padding: 20px;
-    }
-}
-
 .footer-padding {
     padding: 20px 100px;
-}
-
-@media screen and (max-width: 600px) {
-    .footer-padding {
-        padding: 20px;
-    }
 }
 
 .flex-box {
@@ -88,57 +64,20 @@ a {
     flex-direction: column;
 }
 
-@media screen and (max-width: 600px) {
-    .flex-col {
-        flex-direction: column;
-    }
-    .flex-margin {
-        margin-top: 20px;
-    }
-    .about-image {
-        display: none;
-    }
-}
-
 .text {
     font-size: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .text {
-        font-size: 12px;
-    }
 }
 
 .heading {
     font-size: 40px;
 }
 
-@media screen and (max-width: 600px) {
-    .heading {
-        font-size: 22px;
-    }
-}
-
 .logo {
     max-width: 350px;
 }
 
-
-@media screen and (max-width: 600px) {
-    .logo {
-        max-width: 170px;
-    }
-}
-
 .nav-text {
     font-size: 18px;
-}
-
-@media screen and (max-width: 600px) {
-    .nav-text {
-        font-size: 11px;
-    }
 }
 
 .text-red {
@@ -195,14 +134,6 @@ a {
     border-radius: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .about-image {
-        max-width: 200px;
-        height: auto;
-        border-radius: 10px;
-    }
-}
-
 .bg-hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/cover-img.webp');
     background-position: top right;
@@ -224,32 +155,13 @@ a {
     font-size: 72px;
 }
 
-@media screen and (max-width: 600px) {
-    .text-large {
-        font-size: 36px;
-    }
-}
-
 .text-med {
     font-size: 24px;
-}
-
-@media screen and (max-width: 600px) {
-    .text-med {
-        font-size: 14px;
-    }
 }
 
 .brochure-btn {
     padding: 10px 20px;
     border-radius: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .brochure-btn {
-        padding: 5px 10px;
-        border-radius: 10px;
-    }
 }
 
 .accordion {
@@ -277,20 +189,8 @@ a {
     padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .acc-padding {
-        padding: 10px;
-    }
-}
-
 .panel-padding {
     padding: 0 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .panel-padding {
-        padding: 0 10px;
-    }
 }
 
 .no-bottom-padding {
@@ -305,50 +205,20 @@ a {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .margin-bottom {
-        margin-bottom: 10px;
-    }
-}
-
 .margin-left {
     margin-left: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .margin-left {
-        margin-left: 10px;
-    }
 }
 
 .margin-right {
     margin-right: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .margin-right {
-        margin-right: 10px;
-    }
-}
-
 .margin-right-nav {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    .margin-right-nav {
-        margin-right: 2px;
-    }
-}
-
 .margin-acc {
     margin-top: 6px;
-}
-
-@media screen and (max-width: 600px) {
-    .margin-acc {
-        margin-top: 3px;
-    }
 }
 
 .panel-text-padding {
@@ -356,7 +226,96 @@ a {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+    .flex-col {
+        flex-direction: column;
+    }
+    .flex-margin {
+        margin-top: 20px;
+    }
+    .about-image {
+        display: none;
+    }
+
+    .div-padding {
+        padding: 20px;
+    }
+
+    .brochure-padding {
+        padding: 20px;
+    }
+
+    .nav-padding {
+        padding: 20px;
+    }
+
+    .footer-padding {
+        padding: 20px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .logo {
+        max-width: 170px;
+    }
+
+    .nav-text {
+        font-size: 11px;
+    }
+
+    .about-image {
+        max-width: 200px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .text-large {
+        font-size: 36px;
+    }
+
+    .text-med {
+        font-size: 14px;
+    }
+
+    .brochure-btn {
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+
+    .acc-padding {
+        padding: 10px;
+    }
+
+    .panel-padding {
+        padding: 0 10px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 10px;
+    }
+
+    .margin-left {
+        margin-left: 10px;
+    }
+
+    .margin-right {
+        margin-right: 10px;
+    }
+
+    .margin-right-nav {
+        margin-right: 2px;
+    }
+
+    .margin-acc {
+        margin-top: 3px;
+    }
+
     .panel-text-padding {
         padding-top: 5px;
         padding-bottom: 5px;
