@@ -8,6 +8,7 @@ body {
     padding: 0;
     font-family: Monserrat, Arial, sans-serif;
     text-align: center;
+    line-height: 1.2;
 }
 
 h1 {
@@ -126,6 +127,10 @@ a {
 
 .text-just {
     text-align: left;
+}
+
+.line-height-1p4 {
+    line-height: 1.4;
 }
 
 .font-bold {
