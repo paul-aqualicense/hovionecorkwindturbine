@@ -125,8 +125,12 @@ a {
     text-align: center;
 }
 
-.text-just {
+.text-left {
     text-align: left;
+}
+
+.text-just {
+    text-align: justify;
 }
 
 .line-height-1p4 {
