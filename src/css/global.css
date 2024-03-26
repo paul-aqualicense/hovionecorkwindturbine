@@ -95,14 +95,17 @@ a {
 /* Text */
 .text {
     font-size: 20px;
+    line-height: 28px;
 }
 
 .heading {
     font-size: 40px;
+    line-height: 44px;
 }
 
 .nav-text {
     font-size: 18px;
+    line-height: 25px;
 }
 
 .hero-text {
@@ -115,10 +118,12 @@ a {
 
 .text-large {
     font-size: 72px;
+    line-height: 100px;
 }
 
 .text-med {
     font-size: 24px;
+    line-height: 34px;
 }
 
 .text-center {
@@ -131,10 +136,6 @@ a {
 
 .text-just {
     text-align: justify;
-}
-
-.line-height-1p4 {
-    line-height: 1.4;
 }
 
 .font-bold {
@@ -271,10 +272,12 @@ a {
 
     .text {
         font-size: 12px;
+        line-height: 17px;
     }
 
     .heading {
         font-size: 22px;
+        line-height: 24px;
     }
 
     .logo {
@@ -283,6 +286,7 @@ a {
 
     .nav-text {
         font-size: 11px;
+        line-height: 15px;
     }
 
     .about-image {
@@ -293,10 +297,12 @@ a {
 
     .text-large {
         font-size: 36px;
+        line-height: 50px;
     }
 
     .text-med {
         font-size: 14px;
+        line-height: 20px;
     }
 
     .brochure-btn {
